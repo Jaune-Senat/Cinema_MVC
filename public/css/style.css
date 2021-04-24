@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+#navigathor{
+    background-color: rgb(255,215,0);
+}
+
+.ystar{
+    color: rgb(255,215,0);
+}
+
+#menuu a{
+    color: #000;
+}
+
+footer{
+    padding-top: 2em;
+}
+
+p{
+    padding: 1em 0;
+}
+
+img{
+    padding: 1em 0;
+    width: 100%;
+}
+
+.imageCast{
+    max-height: 250px;
+}
+
+.imageRe{
+    max-width: 300px;
+}
+
+.affiche{
+    flex: 1;
+    margin-right: 1em;
+}
+
+main{
+    flex:3;
+    margin-left: 1em;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin : auto 1em;
+}
