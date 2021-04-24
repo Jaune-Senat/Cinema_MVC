@@ -8,9 +8,9 @@
         protected function connect(){
             //se connecter à MySQL
             self::$bdd = new \PDO(
-                "mysql:host=localhost:3306;dbname=cinema",
-                "zaldrize",
-                "root",
+                "mysql:host=localhost:3306;dbname=Nope",
+                "NopeNope",
+                "NopeNopeNope",
                 [
                     \PDO::ATTR_ERRMODE            => \PDO::ERRMODE_EXCEPTION,
                     \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
